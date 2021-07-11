@@ -1,0 +1,320 @@
+#widgets #custom-profile {
+  padding: 20px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+#custom-profile {
+  width: 100%;
+  font-size: 14px;
+  padding: 75px 20px 30px;
+  position: relative;
+  background: #fff;
+}
+#custom-profile .btn-custom {
+  background: #00D4FF;
+  color: #fff;
+  border-color: #00D4FF;
+  font-size: 14px;
+  padding: 2px 20px;
+  display: inline-block;
+  border: 1px solid #00D4FF;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+#custom-profile .custom-profile_header h3 {
+  margin-top: 15px;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+#custom-profile .custom-profile_header h3 span {
+  opacity: 0.95;
+  display: block;
+  margin-bottom: 5px;
+}
+#custom-profile .custom-profile_header h3 em {
+  opacity: 0.8;
+  font-size: 0.9em;
+  font-style: normal;
+}
+#custom-profile .custom-profile_header .user-avatar {
+  width: 80px;
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+}
+#custom-profile .custom-profile_body {
+  margin: 10px auto 60px;
+  padding: 10px 0;
+  width: 100%;
+  max-width: 450px;
+}
+#custom-profile .custom-profile_links {
+  border: 0;
+}
+#custom-profile .custom-profile_links a {
+  margin-top: 15px;
+  border: 2px solid #00D4FF;
+  padding: 15px;
+  display: block;
+  background: #00D4FF;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+#custom-profile .custom-profile_links a:hover {
+  background: transparent;
+  color: #00D4FF;
+}
+#custom-profile .custom-profile_branding {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  width: 100px;
+}
+#custom-profile .custom-profile_branding img {
+  width: 100%;
+}
+#custom-profile.custom-profile_white-green .btn-custom {
+  background: #00FF9A;
+  color: #fff;
+  border-color: #00FF9A;
+}
+#custom-profile.custom-profile_white-green .custom-profile_links a {
+  border: 2px solid #00FF9A;
+  background: #00FF9A;
+  color: #fff;
+}
+#custom-profile.custom-profile_white-green .custom-profile_links a:hover {
+  background: transparent;
+  color: #00FF9A;
+}
+#custom-profile.custom-profile_white-red .btn-custom {
+  background: #FF003D;
+  color: #fff;
+  border-color: #FF003D;
+}
+#custom-profile.custom-profile_white-red .custom-profile_links a {
+  border: 2px solid #FF003D;
+  background: #FF003D;
+  color: #fff;
+}
+#custom-profile.custom-profile_white-red .custom-profile_links a:hover {
+  background: transparent;
+  color: #FF003D;
+}
+#custom-profile .url-list {
+  text-align: left;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  padding: 10px 15px;
+  background: transparent;
+}
+#custom-profile .url-list:last-child {
+  border: 0;
+}
+#custom-profile .url-list h3.title {
+  font-weight: 700;
+  font-size: 14px;
+  margin: 5px 0;
+}
+#custom-profile .url-list .description {
+  display: none;
+}
+#custom-profile .url-list .url-stats {
+  text-align: center;
+}
+#custom-profile.custom-profile_white-black .btn-custom {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+#custom-profile.custom-profile_white-black .custom-profile_links a {
+  border: 2px solid #000;
+  background: #000;
+  color: #fff;
+}
+#custom-profile.custom-profile_white-black .custom-profile_links a:hover {
+  background: transparent;
+  color: #000;
+}
+#custom-profile.custom-profile_red-pink {
+  background-image: -moz-linear-gradient(135deg, #ff003d 0%, #ff0086 100%);
+  background-image: -webkit-linear-gradient(135deg, #ff003d 0%, #ff0086 100%);
+  background-image: linear-gradient(135deg, #ff003d 0%, #ff0086 100%);
+}
+#custom-profile.custom-profile_red-pink .custom-profile_header h3 {
+  color: #fff;
+}
+#custom-profile.custom-profile_red-pink .btn-custom {
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+#custom-profile.custom-profile_red-pink .custom-profile_links a {
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+#custom-profile.custom-profile_red-pink .custom-profile_links a:hover {
+  background: #fff;
+  color: transparent;
+}
+#custom-profile.custom-profile_red-pink .custom-profile_links a:hover span {
+  background-image: -moz-linear-gradient(135deg, #ff003d 0%, #ff0086 100%);
+  background-image: -webkit-linear-gradient(135deg, #ff003d 0%, #ff0086 100%);
+  background-image: linear-gradient(135deg, #ff003d 0%, #ff0086 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#custom-profile.custom-profile_green-yellow {
+  background-image: -moz-linear-gradient(135deg, #22c1c3 0%, #fdbb2d 100%);
+  background-image: -webkit-linear-gradient(135deg, #22c1c3 0%, #fdbb2d 100%);
+  background-image: linear-gradient(135deg, #22c1c3 0%, #fdbb2d 100%);
+}
+#custom-profile.custom-profile_green-yellow .custom-profile_header h3 {
+  color: #fff;
+}
+#custom-profile.custom-profile_green-yellow .btn-custom {
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+#custom-profile.custom-profile_green-yellow .custom-profile_links a {
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+#custom-profile.custom-profile_green-yellow .custom-profile_links a:hover {
+  background: #fff;
+  color: transparent;
+}
+#custom-profile.custom-profile_green-yellow .custom-profile_links a:hover span {
+  background-image: -moz-linear-gradient(135deg, #22c1c3 0%, #fdbb2d 100%);
+  background-image: -webkit-linear-gradient(135deg, #22c1c3 0%, #fdbb2d 100%);
+  background-image: linear-gradient(135deg, #22c1c3 0%, #fdbb2d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#custom-profile.custom-profile_blue-blue {
+  background-image: -moz-linear-gradient(135deg, #00C9FF 0%, #92FE9D 100%);
+  background-image: -webkit-linear-gradient(135deg, #00C9FF 0%, #92FE9D 100%);
+  background-image: linear-gradient(135deg, #00C9FF 0%, #92FE9D 100%);
+}
+#custom-profile.custom-profile_blue-blue .custom-profile_header h3 {
+  color: #fff;
+}
+#custom-profile.custom-profile_blue-blue .btn-custom {
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+#custom-profile.custom-profile_blue-blue .custom-profile_links a {
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+#custom-profile.custom-profile_blue-blue .custom-profile_links a:hover {
+  background: #fff;
+  color: transparent;
+}
+#custom-profile.custom-profile_blue-blue .custom-profile_links a:hover span {
+  background-image: -moz-linear-gradient(135deg, #00C9FF 0%, #92FE9D 100%);
+  background-image: -webkit-linear-gradient(135deg, #00C9FF 0%, #92FE9D 100%);
+  background-image: linear-gradient(135deg, #00C9FF 0%, #92FE9D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#custom-profile.custom-profile_black-blue {
+  background-image: -moz-linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
+  background-image: -webkit-linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
+  background-image: linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
+}
+#custom-profile.custom-profile_black-blue .custom-profile_header h3 {
+  color: #fff;
+}
+#custom-profile.custom-profile_black-blue .btn-custom {
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+#custom-profile.custom-profile_black-blue .custom-profile_links a {
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+#custom-profile.custom-profile_black-blue .custom-profile_links a:hover {
+  background: #fff;
+  color: transparent;
+}
+#custom-profile.custom-profile_black-blue .custom-profile_links a:hover span {
+  background-image: -moz-linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
+  background-image: -webkit-linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
+  background-image: linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#custom-profile.custom-profile_red-violet {
+  background-image: -moz-linear-gradient(135deg, #FC466B 0%, #3F5EFB 100%);
+  background-image: -webkit-linear-gradient(135deg, #FC466B 0%, #3F5EFB 100%);
+  background-image: linear-gradient(135deg, #FC466B 0%, #3F5EFB 100%);
+}
+#custom-profile.custom-profile_red-violet .custom-profile_header h3 {
+  color: #fff;
+}
+#custom-profile.custom-profile_red-violet .btn-custom {
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+#custom-profile.custom-profile_red-violet .custom-profile_links a {
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+#custom-profile.custom-profile_red-violet .custom-profile_links a:hover {
+  background: #fff;
+  color: transparent;
+}
+#custom-profile.custom-profile_red-violet .custom-profile_links a:hover span {
+  background-image: -moz-linear-gradient(135deg, #FC466B 0%, #3F5EFB 100%);
+  background-image: -webkit-linear-gradient(135deg, #FC466B 0%, #3F5EFB 100%);
+  background-image: linear-gradient(135deg, #FC466B 0%, #3F5EFB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#custom-profile.custom-profile_black {
+  background-image: -moz-linear-gradient(135deg, #4b4b4b 0%, #000000 100%);
+  background-image: -webkit-linear-gradient(135deg, #4b4b4b 0%, #000000 100%);
+  background-image: linear-gradient(135deg, #4b4b4b 0%, #000000 100%);
+}
+#custom-profile.custom-profile_black .custom-profile_header h3 {
+  color: #fff;
+}
+#custom-profile.custom-profile_black .btn-custom {
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+#custom-profile.custom-profile_black .custom-profile_links a {
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+#custom-profile.custom-profile_black .custom-profile_links a:hover {
+  background: #fff;
+  color: transparent;
+}
+#custom-profile.custom-profile_black .custom-profile_links a:hover span {
+  background-image: -moz-linear-gradient(135deg, #4b4b4b 0%, #000000 100%);
+  background-image: -webkit-linear-gradient(135deg, #4b4b4b 0%, #000000 100%);
+  background-image: linear-gradient(135deg, #4b4b4b 0%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
